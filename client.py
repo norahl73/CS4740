@@ -1,8 +1,7 @@
+# Source: NeuralNine's Tutorial on a TCP chatroom was used as a basis for formatting this code, his video can be
+# found here: https://www.youtube.com/watch?v=3UOyky9sEQY
 import socket
 import threading
-import signal
-import sys
-from codecarbon import EmissionsTracker
 
 nickname = input("Choose a nickname: ")
 
